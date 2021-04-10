@@ -23,8 +23,7 @@ public enum TravelTypeEnum {
 	/**
 	 * Method that returns the value in the Enum.
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 24/03/2020
+	 * @author Pedro Bazzo
 	 * 
 	 * @param value
 	 * @return a TravelTypeEnum

@@ -31,8 +31,7 @@ import org.springframework.test.web.servlet.MockMvc;
 /**
  * Class that implements API integration tests
  * 
- * @author Mariana Azevedo
- * @since 10/09/2019
+ * @author Pedro Bazzo
  *
  */
 @SpringBootTest

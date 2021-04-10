@@ -24,8 +24,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 /**
  * SpringBoot RestController that creates all service end-points related to travels.
  * 
- * @author Mariana Azevedo
- * @since 14/09/2019
+ * @author Pedro Bazzo
  */
 @RestController
 @RequestMapping("/api-travels/travels")
@@ -39,8 +38,7 @@ public class TravelController {
 	/**
 	 * Method that list all travels
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @return ResponseEntity with a <code>List<Travel></code> object and the HTTP status
 	 * 
@@ -62,8 +60,7 @@ public class TravelController {
 	/**
 	 * Method that deletes all existing travels.
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @return Returns an empty body with one of the following:
 	 * 
@@ -85,8 +82,7 @@ public class TravelController {
 	/**
 	 * Method that creates a trip.
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @param trip, where: 
 	 * 
@@ -136,8 +132,7 @@ public class TravelController {
 	/**
 	 * Method that updates a trip.
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @param trip, where: 
 	 * 

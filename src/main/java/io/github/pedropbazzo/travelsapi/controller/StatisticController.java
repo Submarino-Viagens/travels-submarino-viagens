@@ -35,8 +35,7 @@ public class StatisticController {
 	/**
 	 * Method that returns the statistics based on the trips
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @return ResponseEntity - 200
 	 */

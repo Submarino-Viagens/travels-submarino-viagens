@@ -20,8 +20,7 @@ public class StatisticService {
 	/**
 	 * Method that creates statistics based on travels.
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @param travels
 	 * @return Statistic

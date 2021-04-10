@@ -35,8 +35,7 @@ public class TravelService {
 	/**
 	 * Method to create TripFactory
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 */
 	public void createFactory() {
 		if(factory == null) {
@@ -47,8 +46,7 @@ public class TravelService {
 	/**
 	 * Method to create the travel's list
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 */
 	public void createTravelList() {
 		if(travels == null) {
@@ -59,8 +57,7 @@ public class TravelService {
 	/**
 	 * Method that check if JSON is valid.
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @param jsonInString
 	 * @return boolean
@@ -76,8 +73,7 @@ public class TravelService {
 	/**
 	 * Method to parse the id field.
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @param travel
 	 * @return long
@@ -89,8 +85,7 @@ public class TravelService {
 	/**
 	 * Method to parse the amount field.
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @param travel
 	 * @return BigDecimal
@@ -102,8 +97,7 @@ public class TravelService {
 	/**
 	 * Method to parse the startDate field.
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @param travel
 	 * @return LocalDateTime
@@ -117,8 +111,7 @@ public class TravelService {
 	/**
 	 * Method to parse the endDate field.
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @param travel
 	 * @return LocalDateTime
@@ -132,8 +125,7 @@ public class TravelService {
 	/**
 	 * Method that check if the travel is being finished in the future.
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @param travel
 	 * @return boolean
@@ -146,8 +138,7 @@ public class TravelService {
 	/**
 	 * Method to fullfil the Travel object
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @param jsonTravel
 	 * @param travel
@@ -167,8 +158,7 @@ public class TravelService {
 	/**
 	 * Method to create a trip
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @param jsonTravel
 	 * @return Travel
@@ -187,8 +177,7 @@ public class TravelService {
 	/**
 	 * Method to update a trip
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @param travel
 	 * @param jsonTravel
@@ -204,8 +193,7 @@ public class TravelService {
 	/**
 	 * Method that add an object Travel
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @param travel
 	 */
@@ -217,8 +205,7 @@ public class TravelService {
 	/**
 	 * Method that get all trips
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 * 
 	 * @param travels
 	 * @return List
@@ -231,8 +218,7 @@ public class TravelService {
 	/**
 	 * Method that get travels by id
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro bAZZO
 	 * 
 	 * @param id
 	 * @return Trip
@@ -244,8 +230,7 @@ public class TravelService {
 	/**
 	 * Method that deletes the travel created
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 */
 	public void delete() {
 		travels.clear();
@@ -254,8 +239,7 @@ public class TravelService {
 	/**
 	 * Method to clean objects
 	 * 
-	 * @author Mariana Azevedo
-	 * @since 14/09/2019
+	 * @author Pedro Bazzo
 	 */
 	public void clearObjects() {
 		travels = null;
